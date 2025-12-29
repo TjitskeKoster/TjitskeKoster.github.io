@@ -1,11 +1,12 @@
 ---
 layout: page
-title: projects
+title: Side projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: All things that do not fit on the page research
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+categories: false
+# display_categories: [work, fun]
 horizontal: false
 ---
 

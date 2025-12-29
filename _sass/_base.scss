@@ -171,6 +171,7 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  text-decoration-color: var(--global-card-text-color);
 
   .card-img {
     width: 100%;
@@ -179,6 +180,10 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+  }
+
+  .card-text{
+    color: var(--global-card-text-color) !important;
   }
 
   .card-body {
@@ -428,6 +433,8 @@ ul.task-list input[type="checkbox"] {
         width: 3.5rem;
         height: 4rem;
         margin-bottom: 0.5rem;
+        color: var(--global-text-color);
+        transition: all 0.2s ease-in-out;
 
         image {
           width: 3.5rem;
@@ -438,6 +445,10 @@ ul.task-list input[type="checkbox"] {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover svg path {
+        fill: var(--global-theme-color);
       }
 
       &:hover {
@@ -1421,7 +1432,7 @@ ninja-keys::part(ninja-input-wrapper) {
 
 figure.cover {
   display: inline-block;
-  text-align: center;
+  text-align: center; 
   margin: 0.5rem; /* adjust as needed */
 
   img {

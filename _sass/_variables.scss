@@ -6,25 +6,35 @@
 @use "sass:color";
 
 // Colors
+// https://colorhunt.co/palette/0d1164640d5fea2264f78d60
+$blue-purple-color: #0D1164 !default;
+$purple-color: #640D5F !default;
+$pink-color: #EA2264 !default;
+$pink-color-light:color.adjust($pink-color, $lightness: 40%);
+$orange-color: #F78D60 !default;
+$creme-color: #FCF5EE !default;
+
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
-$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
-$light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+// $orange-color: #f29105 !default;
+// $blue-color: #0076df !default;
+// $blue-color-dark: #0D1164 !default;
+// $cyan-color: #2698ba !default;
+// $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
+// $green-color: #00ab37 !default;
+// $green-color-lime: #b7d12a !default;
+// $green-color-dark: #009f06 !default;
+// $green-color-light: #ddffdd !default;
+// $green-color-bright: #11d68b !default;
+// $purple-color: #b509ac !default;
+// $light-purple-color: color.adjust($purple-color, $lightness: 25%);
+// $pink-color: #EA2264 !default;
+// $pink-color-light:color.adjust($pink-color, $lightness: 40%);
+// // $pink-color-light: #FDEDED !default;
+// $yellow-color: #efcc00 !default;
 
-$grey-color: #828282 !default;
+$grey-color: red;
+// $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
@@ -34,8 +44,8 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-light: #{$pink-color};
+$code-bg-color-dark: #{$pink-color};
 
 // Font awesome location
 $fa-font-path: "../webfonts";
