@@ -7,7 +7,7 @@ first_name: Tjitske
 middle_name: 
 last_name: Koster
 contact_note: >
-  You can reach me via email (see TU Delft webpage)
+  You can reach me best via email
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A website about me
 footer_text: >
@@ -194,7 +194,6 @@ exclude:
   - _pages/blog.md
   - _pages/books.md
   - _books/
-  - _pages/cv.md
   - _pages/dropdown.md
   - _pages/profiles.md
   - _pages/repositories.md

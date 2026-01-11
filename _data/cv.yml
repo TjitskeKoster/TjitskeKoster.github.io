@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Tjitske Koster
     - name: Date of Birth
-      value: 14th March 1879
+      value: 2000
     - name: Languages
-      value: English, German
+      value: Dutch, English, French
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Technology Delft, The Netherlands
+      year: 2023 - ungoing
       description:
         - Description 1.
         - Description 2.
@@ -21,75 +21,56 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: M.Sc. of Mathematics
+      institution: Radboud University, Nijmegen, The Netherlands
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - <a href="https://www.math.ru.nl/~bosma/Students/TjitskeKosterMSc.pdf">Thesis</a>
+    - title: B.Sc. of Mathematics
+      institution: Radboud University, Nijmegen, The Netherlands
+      year: 2018 - 2022
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Retail assistent
+      institution: Bever
+      year: 2016 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Cassière
+        - Acting store manager
+        - title: Acting store manager
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Team leader during the summer
+    - title: Teaching assistent
+      institution: Radboud University, Nijmegen
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Introduction to Mathematics
+        - Introduction to Geometry
+        - Introdcution to Cryptography
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Cyber Woman Student of the World
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Post-Quantum Cryptography
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Open to collaborations
+        - <a href="https://www.math.ru.nl/~bosma/Students/TjitskeKosterMSc.pdf"> Master Thesis</a>
+    - title: Private Set intersection
       items:
-        - Description 1.
-        - Description 2.
+        - Open to collaborations
+        - <a href="https://eprint.iacr.org/2025/2132"> Bandwidth Efficient Partial Authorized {PSI} </a>
+    - title: Multi-Party computation
+      items:
+        - Open to collaborations
 
 - title: Other Interests
   type: list

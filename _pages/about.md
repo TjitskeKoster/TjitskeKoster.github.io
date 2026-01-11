@@ -29,3 +29,5 @@ latest_posts:
 My love for cryptography started around my sixteenth birthday. When we learned about cryptography in high school. My friends understood me, and for my sixteenth birthday, I received encrypted birthday cards from all of them. I was curious and stayed up all night to decrypt all the cards. I still enjoy puzzles and cryptography, which is why I like my PhD in cryptography at the TU Delft.
 
 Before my PhD, I completed a master's and bachelor's degree in mathematics (i.e., advanced puzzling 😉) at the Radboud University (Nijmegen, NL). 
+
+I'm open to collaborations on PQC (Post-Quantum Cryptography), PSI (Private Set Intersection), MPC (Multi-Party Computation). You can find my contact details at the bottom of this page. 

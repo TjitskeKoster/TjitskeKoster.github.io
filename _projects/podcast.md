@@ -27,3 +27,6 @@ The episode offers listeners an accessible look at a complex technical topic, hi
 
 All the Cyber Ladies is a Dutch-language podcast focused on women in the IT and cybersecurity sectors. Each episode features a “cyber lady” who shares her career journey, questions, achievements, and challenges in the field. Topics range widely — from ethics, politics, and public-private partnerships to legal aspects of cyber, drones, awareness, gaming, hacking, and more. The podcast is an initiative by content creator and host Lucinda Sterk. The episode featuring me is available on [Spotify](https://open.spotify.com/episode/6aV706HANV92xhvbJUP7wC?si=a5a6a3e9a30343c1&nd=1&dlsi=8bad2eb7c6ee4b7b) and other podcast platforms (in Dutch only).
 
+🗞️ Find the TU Delft news item [here](9https://www.tudelft.nl/en/2025/ewi/insy/tjitske-koster-a-guest-on-dutch-cyber-lady-podcast)
+
+

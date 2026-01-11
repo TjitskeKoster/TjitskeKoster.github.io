@@ -15,4 +15,7 @@ During the sixth edition of the Cyber Women Awards, I was honored with the “Cy
 
 I received the award for my active role in organizing PhD and Postdoc [lunches](/projects/lunches) within the Software Technology and Intelligent Systems departments of the TU Delft, as well as for my participation in the [Young Talents Cybersecurity](/projects/young_talents) project.
 
-🎥 The video of the ceremony can be found [here](https://youtu.be/Fko7oBzxaGw?t=737)
+🎥 Find the video of the ceremony [here](https://youtu.be/Fko7oBzxaGw?t=737) \
+🗞️ Find the TU Delft news item [here](https://www.tudelft.nl/ewi/actueel/ewinners-2025)
+
+
