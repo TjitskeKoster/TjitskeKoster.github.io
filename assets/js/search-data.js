@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "news-me-at-the-opening-of-the-one-conference-with-the-young-talents",
           title: '🎥 Me at the opening of the ONE conference with the Young Talents...',
           description: "",
