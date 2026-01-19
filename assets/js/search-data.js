@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Research/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "nav-side-projects",
           title: "Side projects",
           description: "All things that do not fit on the page research",
@@ -25,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "",
+          description: "My resume is displayed below, but you can also click the PDF button",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
