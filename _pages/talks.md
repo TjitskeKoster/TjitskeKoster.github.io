@@ -1,10 +1,10 @@
 ---
-published: false
+published: true
 layout: default
-permalink: /blog/
-title: blog
+permalink: /talks/
+title: Talks
 nav: true
-nav_order: 1
+nav_order: 2
 pagination:
   enabled: true
   collection: posts
@@ -35,22 +35,25 @@ pagination:
   <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
-        <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+        <li style="line-height:0.1;">
+          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/talks/tag/' | relative_url }}">{{ tag }}</a>
         </li>
         {% unless forloop.last %}
-          <p>&bull;</p>
+          <!-- <p>&bull;</p> -->
+          <li class="separator">&bull;</li>
         {% endunless %}
       {% endfor %}
       {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>&bull;</p>
+        <!-- <p>&bull;</p> -->
+        <li class="separator">&bull;</li>
       {% endif %}
       {% for category in site.display_categories %}
-        <li>
-          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+        <li style="line-height:0.1;">
+          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/talks/category/' | relative_url }}">{{ category }}</a>
         </li>
         {% unless forloop.last %}
-          <p>&bull;</p>
+          <!-- <p>&bull;</p> -->
+          <li class="separator">&bull;</li>
         {% endunless %}
       {% endfor %}
     </ul>
@@ -85,8 +88,8 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      {{ read_time }} min read &nbsp; &middot; &nbsp;
-                      <a href="{{ year | prepend: '/blog/' | relative_url }}">
+                      <!-- {{ read_time }} min read &nbsp; &middot; &nbsp; -->
+                      <a href="{{ year | prepend: '/talks/' | relative_url }}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
                   </div>
@@ -142,20 +145,20 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
+        <!-- {{ read_time }} min read &nbsp; &middot; &nbsp; -->
         {{ post.date | date: '%B %d, %Y' }}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}
       </p>
       <p class="post-tags">
-        <a href="{{ year | prepend: '/blog/' | relative_url }}">
+        <a href="{{ year | prepend: '/talks/' | relative_url }}">
           <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
 
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">
+            <a href="{{ tag | slugify | prepend: '/talks/tag/' | relative_url }}">
               <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
               {% unless forloop.last %}
                 &nbsp;
@@ -166,7 +169,7 @@ pagination:
           {% if categories != "" %}
           &nbsp; &middot; &nbsp;
             {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">
+            <a href="{{ category | slugify | prepend: '/talks/category/' | relative_url }}">
               <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
               {% unless forloop.last %}
                 &nbsp;
@@ -195,3 +198,4 @@ pagination:
 {% endif %}
 
 </div>
+
