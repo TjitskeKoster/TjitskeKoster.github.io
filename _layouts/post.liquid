@@ -23,7 +23,7 @@ layout: default
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
     <p class="post-tags">
-      {% if url_beginning == '/talks/' %}
+      {% if url_beginning == '/talks' %}
         <a href="{{ year | prepend: '/talks/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
       {% else %}
         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
@@ -31,7 +31,7 @@ layout: default
       {% if tags != '' %}
         &nbsp; &middot; &nbsp;
         {% for tag in page.tags %}
-          {% if url_beginning == '/talks/' %}
+          {% if url_beginning == '/talks' %}
             <a href="{{ tag | slugify | prepend: '/talks/tag/' | relative_url }}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
           {% else %}
             <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
@@ -45,7 +45,7 @@ layout: default
       {% if categories != '' %}
         &nbsp; &middot; &nbsp;
         {% for category in page.categories %}
-          {% if url_beginning == '/talks/' %}
+          {% if url_beginning == '/talks' %}
             <a href="{{ category | slugify | prepend: '/talks/category/' | relative_url }}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}</a>
           {% else %}
             <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
@@ -69,6 +69,21 @@ layout: default
       {{ content }}
     </div>
   </article>
+
+  {% if page.slides_pdf %}
+    <a
+      {% if page.slides_pdf contains '://' %}
+        href="{{ page.slides_pdf }}"
+      {% else %}
+        href="{{ page.slides_pdf | prepend: 'assets/pdf/' | relative_url }}"
+      {% endif %}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="float-left"
+    >
+      <i class="fa-solid fa-file-pdf fa-5x"></i>
+    </a>
+  {% endif %}
 
   {% if page.citation %}
     {% include citation.liquid %}
