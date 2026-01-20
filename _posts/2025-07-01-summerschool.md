@@ -7,7 +7,7 @@ tags: PSI
 categories: Bandwidth-Efficient-Partial-Authorized-PSI
 citation: false
 related_posts: false
-slides_pdf: talks-summerschool.pdf
+slides_pdf: Talks_summerschool.pdf
 ---
 
 The Summer School on real-world crypto and privacy 2025 aimed at bringing together Master/PhD students, academics and security experts from industry. The Students’ Session Talks were the talks given by participants who liked to give a little presentation.
