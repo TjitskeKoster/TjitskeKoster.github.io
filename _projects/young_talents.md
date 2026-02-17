@@ -19,7 +19,7 @@ related_publications: false
 
 📄 **Report**: [Download the PDF](/assets/pdf/Report_YT.pdf)
 
-The Young Talents in Cybersecurity 2025 program was an initiative of the Institut français-NL, the Embassy of France in the Netherlands, the Dutch Embassy in France, and the Franco-Dutch Network. The Young Talents program promotes collaboration and provides opportunities for the next generation of cybersecurity experts. The program's goal was to tackle new challenges and build bridges between academia, the private sector, and policymakers.
+The Young Talents in Cybersecurity 2025 program was an initiative of the Institut français-NL, the Dutch Embassy in France, and the Franco-Dutch Network. The Young Talents program promotes collaboration and provides opportunities for the next generation of cybersecurity experts. The program's goal was to tackle new challenges and build bridges between academia, the private sector, and policymakers.
 
 Together with 11 talented master's and PhD students from France and the Netherlands, I was selected for this program. We were divided into two teams and asked, "What will the next challenge in cybersecurity be?" 
 
