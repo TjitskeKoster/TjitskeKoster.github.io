@@ -17,7 +17,7 @@ related_publications: false
   </figcaption>
 </figure>
 
-<!-- 📄 **Report**: [Download the PDF](/assets/pdf/example_pdf.pdf) -->
+📄 **Report**: [Download the PDF](/assets/pdf/Report_YT.pdf)
 
 The Young Talents in Cybersecurity 2025 program was an initiative of the Institut français-NL, the Embassy of France in the Netherlands, the Dutch Embassy in France, and the Franco-Dutch Network. The Young Talents program promotes collaboration and provides opportunities for the next generation of cybersecurity experts. The program's goal was to tackle new challenges and build bridges between academia, the private sector, and policymakers.
 
@@ -31,4 +31,4 @@ After the ONE Conference, our work did not come to an end. We wrote a report and
 
 🎥 I got the chance to speak at the opening of the ONE conference! You can find me [here](https://youtu.be/U9u1EGIO-D4?t=2356) and the introduction of the project a bit earlier [here](https://youtu.be/U9u1EGIO-D4?t=2275) 
 
-<!-- [report](/assets/pdf/example_pdf.pdf)  -->
+<a href="/assets/pdf/Report_YT.pdf" target="_blank"> <i class="fa-solid fa-file-pdf fa-5x"></i></a>
