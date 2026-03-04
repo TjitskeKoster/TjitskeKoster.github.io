@@ -9,7 +9,7 @@ related_publications: false
 ---
 
 <figure class="float-left mr-3" style="width: 400px;">
-  <img src="/assets/img/Yount_Talents-ONE-stage.jpg" class="img-fluid" alt="Alt text">
+  <img src="/assets/img/Young_Talents-ONE-stage.jpg" class="img-fluid" alt="Alt text">
   <figcaption class="figure-caption text-center">
     <a href= "https://youtu.be/U9u1EGIO-D4?t=2356">
     Find the pich here
