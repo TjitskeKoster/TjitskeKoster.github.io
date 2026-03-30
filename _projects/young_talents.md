@@ -8,14 +8,17 @@ importance: 2
 related_publications: false
 ---
 
-<figure class="float-left mr-3" style="width: 400px;">
+<!-- <figure class="float-left mr-3" style="width: 400px;">
   <img src="/assets/img/Young_Talents-ONE-stage.jpg" class="img-fluid" alt="Alt text">
   <figcaption class="figure-caption text-center">
     <a href= "https://youtu.be/U9u1EGIO-D4?t=2356">
     Find the pich here
     </a>
   </figcaption>
-</figure>
+</figure> -->
+📅 **FIC**: [Join our session Thursday 2 April, 14:00h, Salle 2.1](https://europe.forum-incyber.com/programme-2026/)
+
+📩 **Stay in contact** [Show interest in a follow up](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=oUYycvXDxUOs3EOttASsTZyfoLUFw1xCkfYxHJVWbCBUQzFFR1VJWklPWUhQWVJKODJMQk1aUTA2Ny4u)
 
 📄 **Report**: [Download the PDF](/assets/pdf/Report_YT.pdf)
 
